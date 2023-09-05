@@ -1,0 +1,106 @@
+@import url("https://fonts.cdnfonts.com/css/lucida-sans-unicode");
+
+:root {
+  --color1: #325eb2;
+  --white: #ffff;
+  --gray: #eee;
+  --black: #0000;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans Unicode", sans-serif;
+}
+.mcontainer {
+  max-width: 1000px;
+  margin: 0 auto 50px auto;
+}
+.logo {
+  max-height: 82.46px;
+  max-width: 100%;
+}
+.logo img {
+  padding: 4px;
+  cursor: pointer;
+}
+nav {
+  background-color: var(--color1);
+  width: 100%;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  padding: 4px 8px;
+  list-style-type: none;
+  font-weight: 600;
+  font-size: 16px;
+}
+nav ul li a {
+  color: var(--white);
+  text-decoration: none;
+}
+main {
+  width: 700px;
+  padding: 0px 10px 10px 0px;
+}
+main h1 {
+  font-weight: 600;
+  margin: 21px 0px;
+}
+main .parag img {
+  width: 371px;
+  float: left;
+  margin: 0px 5px 5px 0px;
+}
+main h2,
+.right-list h2 {
+  font-weight: 600;
+  margin: 20px 0px;
+}
+main h3 {
+  font-weight: 600;
+  margin: 19px 0px;
+}
+.last-p {
+  margin-bottom: 16px;
+}
+.right-list {
+  float: right;
+  width: 300px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+.parent-li {
+  padding-inline-start: 40px;
+}
+.child-li {
+  list-style-type: circle;
+  padding-inline-start: 40px;
+}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  padding: 16px 20px;
+  background-color: var(--gray);
+}
+@media (max-width: 708px) {
+  .right-list {
+    float: none;
+    width: 80%;
+  }
+  main .parag img {
+    float: none top;
+  }
+  main {
+    width: 100%;
+  }
+}
+@media (max-width: 525px) {
+  .mcontainer {
+    min-width: 525px;
+  }
+}
