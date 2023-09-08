@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,400;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+  --pry-color: #6366F1;
+  --sec-color: #EEF2FF;
+  --gen-color: #fffff;
+  --dark-color: #00000;
+}
+
+* {
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins";
+  padding-bottom: 17.1em;
+  background-color: black;
+}
+
+.mcontainer {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2em 0em;
+}
+.heading h1 {
+  font-size: 4em;
+  color: var(--pry-color);
+}
+main {
+  border-radius: 3em;
+  overflow: hidden;
+}
+table {
+  width: 100%;
+  font-size: 2rem;
+  text-align: center;
+  border-collapse: collapse;
+  border: .01em solid var(--pry-color);
+}
+table thead {
+  height: 3em;
+  font-size: 2.5rem;
+  background-color: var(--pry-color);
+  color: white;
+}
+th {
+  padding: .5em .8em;
+}
+table tbody td {
+  height: 3em;
+  background-color: var(--gen-color);
+  margin: 0em 1em;
+  color: white;
+}
