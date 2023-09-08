@@ -62,3 +62,22 @@ table tbody td {
   margin: 0em 1em;
   color: white;
 }
+@media (max-width: 770px) {
+  .heading h1 {
+    font-size: 2.5em;
+  }
+  table thead {
+    /* height: 3em; */
+    font-size: 2rem;
+  }
+  table tbody td {
+    height: 3em;
+    margin: 0em 1em;
+    color: white;
+    font-size: 1.8rem;
+}
+@media (max-width: 655px) {
+  .mcontainer {
+    min-width: 655px;
+  }
+}
